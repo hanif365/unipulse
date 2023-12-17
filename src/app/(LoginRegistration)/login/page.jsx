@@ -51,7 +51,6 @@ const Login = () => {
     );
   }
 
-
   if (session?.status === "authenticated") {
     router?.push("/");
   }
@@ -141,7 +140,6 @@ const Login = () => {
 
                   {/* when Image show uncomment below line */}
                   <div className="absolute top-40 2xl:top-60 left-0 right-0 bottom-0 flex flex-col  px-10 z-[1]">
-                    
                     <p className="text-xl lg:text-4xl 2xl:text-6xl font-bold pt-40">
                       {college.name}
                     </p>
@@ -329,7 +327,10 @@ const Login = () => {
                 <FaGithub className="w-6 h-6 text-white" />
               </button>
 
-              <button onClick={() => providerSignInAndRedirect("facebook")} className="w-11 h-11 items-center justify-center inline-flex rounded-2xl font-bold text-lg bg-blue-900 hover:shadow-lg cursor-pointer transition ease-in duration-300">
+              <button
+                onClick={() => providerSignInAndRedirect("facebook")}
+                className="w-11 h-11 items-center justify-center inline-flex rounded-2xl font-bold text-lg bg-blue-900 hover:shadow-lg cursor-pointer transition ease-in duration-300"
+              >
                 <FaFacebookF className="w-6 h-6 text-white" />
               </button>
             </div>
