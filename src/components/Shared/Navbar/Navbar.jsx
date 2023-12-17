@@ -13,9 +13,11 @@ function Navbar() {
   const session = useSession();
   const pathname = usePathname();
 
+  console.log(session?.data?.user);
+
   return (
     <div>
-      <nav className="md:translate-y-0 w-full fixed bg-white top-0 left-0 right-0 z-10 shadow-sm">
+      <nav className="md:translate-y-0 w-full fixed bg-transparent top-0 left-0 right-0 z-10 shadow-sm">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl 2xl:max-w-screen-2xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -101,51 +103,62 @@ function Navbar() {
                     Admission
                   </Link>
                 </li>
-                <li
-                  className={`text-xl font-bold py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:text-[#7EA0FF] transition duration-500 ease-in-out }`}
-                >
-                  <Link
-                    href="/mycollege"
-                    onClick={() => {
-                      setNavbar((prev) => !prev);
-                    }}
-                  >
-                    My College
-                  </Link>
-                </li>
 
+                {session.status === "authenticated" && (
+                  <li
+                    className={`text-xl font-bold py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:text-[#7EA0FF] transition duration-500 ease-in-out }`}
+                  >
+                    <Link
+                      href="/mycollege"
+                      onClick={() => {
+                        setNavbar((prev) => !prev);
+                      }}
+                    >
+                      My College
+                    </Link>
+                  </li>
+                )}
 
                 {session.status === "authenticated" ? (
-                    <li
-                      className={`text-xl text-black font-bold py-2 px-6 text-center border-b-2 md:border-b-0 transition duration-700 ease-in-out`}
+                  <li
+                    className={`text-xl text-black font-bold py-2 px-6 text-center border-b-2 md:border-b-0 transition duration-700 ease-in-out`}
+                  >
+                    <button
+                      className="text-red-500 hover:text-red-600"
+                      onClick={() => signOut()}
                     >
-                      <button
-                        className="text-red-500 hover:text-red-600"
-                        onClick={() => signOut()}
-                      >
-                        Logout
-                      </button>
-                    </li>
-                  ) : (
-                    <li
-                      className={`text-xl  font-bold py-2 px-6 text-center border-b-2 md:border-b-0 transition duration-700 ease-in-out ${
-                        pathname === "/login"
-                          ? "text-green-600"
-                          : "text-green-400"
-                      }`}
+                      Logout
+                    </button>
+                  </li>
+                ) : (
+                  <li
+                    className={`text-xl  font-bold py-2 px-6 text-center border-b-2 md:border-b-0 transition duration-700 ease-in-out ${
+                      pathname === "/login"
+                        ? "text-green-600"
+                        : "text-green-400"
+                    }`}
+                  >
+                    <Link
+                      href="/login"
+                      onClick={() => {
+                        setNavbar((prev) => !prev);
+                      }}
                     >
-                      <Link
-                        href="/login"
-                        onClick={() => {
-                          setNavbar((prev) => !prev);
-                        }}
-                      >
-                        Login
-                      </Link>
-                    </li>
-                  )}
+                      Login
+                    </Link>
+                  </li>
+                )}
 
-
+                {session.status === "authenticated" && <li>
+                  {session?.data?.user.image ? 
+                  <Image
+                    src={session?.data?.user.image}
+                    alt="Loading Image"
+                    width={50}
+                    height={50}
+                    className="mx-auto rounded-full"
+                  /> : <p className="text-2xl font-bold bg-blue-400 py-2 px-8 rounded-xl">{session?.data?.user.name.split(' ').pop()}</p>}
+                </li>}
               </ul>
             </div>
           </div>

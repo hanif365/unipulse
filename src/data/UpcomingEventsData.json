@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "name": "Kushtia Govt. College",
+    "locationThumbnailImg": "https://i.ibb.co/fGwP6Hr/cox-sbazargalleryimg8.jpg",
+    "title": "Bangladesh's Serene Coastal Paradise",
+    "events": [
+      {
+        "eventName": "Sunset Beach Party",
+        "eventImage": "https://i.ibb.co/thszGYk/cox-sbazargalleryimg5.jpg"
+      },
+      {
+        "eventName": "Water Thrills",
+        "eventImage": "https://i.ibb.co/d0Gwrd1/cox-sbazargalleryimg2.jpg"
+      },
+      {
+        "eventName": "Horse Riding on Seabeach",
+        "eventImage": "https://i.ibb.co/56WDc7K/cox-sbazargalleryimg4.jpg"
+      },
+      {
+        "eventName": "Relaxing by the Sea",
+        "eventImage": "https://i.ibb.co/qy5jpRB/cox-sbazargalleryimg3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "locationThumbnailImg": "https://i.ibb.co/G59Cw4T/sajekvalley1.jpg",
+    "title": "Sajek Valley: Bangladesh's Cloud Kingdom",
+    "events": [
+      {
+        "eventName": "Hilltop Bliss",
+        "eventImage": "https://i.ibb.co/tmbyXFG/sajekvalley2.jpg"
+      },
+      {
+        "eventName": "Panoramic Vistas",
+        "eventImage": "https://i.ibb.co/MNxxJdC/sajekvalley3.jpg"
+      },
+      {
+        "eventName": "Harmony and Connection",
+        "eventImage": "https://i.ibb.co/yqdRc0R/sajekvalley6.jpg"
+      },
+      {
+        "eventName": "Hilltop Adventure",
+        "eventImage": "https://i.ibb.co/wRNHf9w/sajekvalley5.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "locationThumbnailImg": "https://i.ibb.co/hfKNMm5/sylhetteagarden.jpg",
+    "title": "Enchanting Sylhet: Explore the Magic",
+    "events": [
+      {
+        "eventName": "Tea Garden Retreat",
+        "eventImage": "https://i.ibb.co/M7J3q5d/teagarden.jpg"
+      },
+      {
+        "eventName": "Bisnakandi Magic",
+        "eventImage": "https://i.ibb.co/4gmg20s/bisnakandi.jpg"
+      },
+      {
+        "eventName": "Ratargul Exploration",
+        "eventImage": "https://i.ibb.co/B2zW7nv/Ratargul-Swamp-forest.jpg"
+      },
+      {
+        "eventName": "Spiritual Sojourn",
+        "eventImage": "https://i.ibb.co/nMD3hck/Hazrat-Shah-Jalal-Mazar.jpg"
+      }
+    ]
+  }
+]
