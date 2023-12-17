@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "collegeName": "Kushtia Govt. College",
+    "locationThumbnailImg": "https://i.ibb.co/JQktbGb/pg-kgh.jpg",
+    "event": "Re-Union Batch 2008",
+    "date": "2023-08-15"
+  },
+  {
+    "id": "2",
+    "collegeName": "Dhaka College",
+    "locationThumbnailImg": "https://i.ibb.co/qM5WnFp/pg-dhakacollege.jpg",
+    "event": "Re-Union Batch 2010",
+    "date": "2022-02-15"
+  },
+  {
+    "id": "3",
+    "collegeName": "Ideal College",
+    "locationThumbnailImg": "https://i.ibb.co/1bCMBn0/pg-idealcollege.jpg",
+    "event": "Re-Union Batch 2020",
+    "date": "2023-04-20"
+  },
+  {
+    "id": "4",
+    "collegeName": "Comilla Victoria College",
+    "locationThumbnailImg": "https://i.ibb.co/6ZZPb1f/pg-commila.jpg",
+    "event": "Re-Union Batch 2015",
+    "date": "2020-09-05"
+  },
+  {
+    "id": "5",
+    "collegeName": "Dhaka City College",
+    "locationThumbnailImg": "https://i.ibb.co/Tmk0TnV/pg-dhakacitycollege.jpg",
+    "event": "Re-Union Batch 2018",
+    "date": "2023-06-10"
+  },
+  {
+    "id": "6",
+    "collegeName": "Rajshahi Government College",
+    "locationThumbnailImg": "https://i.ibb.co/f4DLF5n/pg-rajshahigovtcollege.jpg",
+    "event": "Re-Union Batch 2006",
+    "date": "2021-01-25"
+  }
+]

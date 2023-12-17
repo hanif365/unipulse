@@ -1,0 +1,449 @@
+{
+  "colleges": [
+    {
+      "id": 1,
+      "name": "Kushtia Govt. College",
+      "slogan": "Empowering Minds, Enriching Futures",
+      "shortName": "kgh",
+      "image": "https://i.ibb.co/WxPczj7/kgh.jpg",
+      "rating": 4.8,
+      "admissionInfo": {
+        "process": "Submit Online Application, Interview",
+        "deadline": "2023-07-31",
+        "eligibilityCriteria": "Minimum GPA of 3.6, SAT/ACT scores",
+        "applicationFees": "$80",
+        "requiredDocuments": ["Transcripts", "Letters of Recommendation"],
+        "contact": "admissions@uvwcollege.edu"
+      },
+      "researchCount": 120,
+      "events": [
+        {
+          "id": 1,
+          "name": "Annual Cultural Fest",
+          "image": "https://i.ibb.co/qs5DC6g/Annual-Cultural-Fest.jpg",
+          "date": "2023-10-15"
+        },
+        {
+          "id": 2,
+          "name": "Science Exhibition",
+          "image": "https://i.ibb.co/nDYhVqS/Science-Exhibition.jpg",
+          "date": "2023-11-20"
+        }
+      ],
+      "sports": [
+        {
+          "id": 1,
+          "name": "Enjoy Football Match",
+          "image": "https://i.ibb.co/P4sx4w6/football.jpg",
+          "subtitle": "Feel the thrill, cheer for your team, and enjoy the excitement of the game."
+        },
+        {
+          "id": 2,
+          "name": "Enjoy Basketball Match",
+          "image": "https://i.ibb.co/Sy9tcxp/bas.jpg",
+          "subtitle": "Experience the fast-paced action and the joy of a thrilling basketball match."
+        },
+        {
+          "id": 2,
+          "name": "Enjoy Cricket Match",
+          "image": "https://i.ibb.co/jkbpMd5/cric.jpg",
+          "subtitle": "Hoop cheers, and the joy of a thrilling Cricket match."
+        }
+      ],
+      "details": "KGH is a prestigious institution known for its academic excellence and vibrant campus life. Explore the various opportunities and experiences it offers to students.",
+      "graduateImages": [
+        "abc_graduate_1.jpg",
+        "abc_graduate_2.jpg",
+        "abc_graduate_3.jpg"
+      ],
+      "researchPapers": [
+        {
+          "id": 1,
+          "title": "Advancements in Quantum Computing",
+          "author": "Mayank Agarwal",
+          "link": "https://www.linkedin.com/pulse/advancements-quantum-computing-mayank-agarwal/",
+          "image": "https://i.ibb.co/MhPgcT1/Advancements-in-Quantum-Computing.jpg",
+          "date": "November 12, 2023"
+        },
+        {
+          "id": 2,
+          "title": "Sustainable Energy Solutions",
+          "author": "M.A.Majid",
+          "link": "https://energsustainsoc.biomedcentral.com/articles/10.1186/s13705-019-0232-1",
+          "image": "https://i.ibb.co/ZJ3zznv/Sustainable-Energy-Solutions.jpg",
+          "date": "November 08, 2022"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "John Doe",
+          "rating": 5,
+          "comment": "Great educational experience at ABC University!"
+        },
+        {
+          "id": 2,
+          "user": "Jane Smith",
+          "rating": 4,
+          "comment": "Amazing sports facilities."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dhaka College",
+      "slogan": "Nurturing Minds, Igniting Futures",
+      "shortName": "dhakacollege",
+      "image": "https://i.ibb.co/ZBfDB5J/dhaka-college.jpg",
+      "rating": 4.5,
+      "admissionInfo": {
+        "process": "Submit Online Application, Interview",
+        "deadline": "2023-07-31",
+        "eligibilityCriteria": "Minimum GPA of 3.6, SAT/ACT scores",
+        "applicationFees": "$80",
+        "requiredDocuments": ["Transcripts", "Letters of Recommendation"],
+        "contact": "admissions@uvwcollege.edu"
+      },
+      "researchCount": 90,
+      "events": [
+        {
+          "id": 1,
+          "name": "Tech Expo",
+          "date": "2023-09-25",
+          "image": "https://i.ibb.co/BjJ8rzX/Tech-Expo.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Literary Festival",
+          "date": "2023-10-10",
+          "image": "https://i.ibb.co/TwgFPnb/Literary-Festival.jpg"
+        }
+      ],
+      "sports": [
+        {
+          "id": 1,
+          "name": "Enjoy Football Match",
+          "image": "https://i.ibb.co/P4sx4w6/football.jpg",
+          "subtitle": "Feel the thrill, cheer for your team, and enjoy the excitement of the game."
+        },
+        {
+          "id": 2,
+          "name": "Enjoy Basketball Match",
+          "image": "https://i.ibb.co/Sy9tcxp/bas.jpg",
+          "subtitle": "Experience the fast-paced action and the joy of a thrilling basketball match."
+        },
+        {
+          "id": 2,
+          "name": "Enjoy Cricket Match",
+          "image": "https://i.ibb.co/jkbpMd5/cric.jpg",
+          "subtitle": "Hoop cheers, and the joy of a thrilling Cricket match."
+        }
+      ],
+      "details": "Dhaka College is dedicated to providing a holistic learning experience. Our commitment to academic excellence and diverse extracurricular activities sets us apart.",
+      "graduateImages": [
+        "xyz_graduate_1.jpg",
+        "xyz_graduate_2.jpg",
+        "xyz_graduate_3.jpg"
+      ],
+      "researchPapers": [
+        {
+          "id": 1,
+          "title": "Innovations in Artificial Intelligence",
+          "author": "Rajoo Jha",
+          "link": "https://www.linkedin.com/pulse/innovation-ai-topics-artificial-intelligence-how-innovators-rajoo-jha/?utm_source=rss&utm_campaign=articles_sitemaps&utm_medium=google_news",
+          "image": "https://i.ibb.co/sVnZyNr/Innovations-in-Artificial-Intelligence.jpg",
+          "date": "November 02, 2023"
+        },
+        {
+          "id": 2,
+          "title": "Environmental Sustainability Practices",
+          "author": "Asadul Hoque",
+          "link": "https://link.springer.com/article/10.1007/s10668-016-9845-0",
+          "image": "https://i.ibb.co/F6TZYg3/Environmental-Sustainability-Practices.jpg",
+          "date": "November 02, 2023"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Alice Johnson",
+          "rating": 4,
+          "comment": "XYZ College fosters creativity and innovation."
+        },
+        {
+          "id": 2,
+          "user": "Bob Williams",
+          "rating": 3,
+          "comment": "Good academic programs, but facilities could be improved."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dhaka City College",
+      "slogan": "Where Knowledge Meets Excellence.",
+      "shortName": "dcc",
+      "image": "https://i.ibb.co/SKtnzQH/City-College.jpg",
+      "rating": 4.0,
+      "admissionInfo": {
+        "process": "Submit Online Application, Interview",
+        "deadline": "2023-07-31",
+        "eligibilityCriteria": "Minimum GPA of 3.6, SAT/ACT scores",
+        "applicationFees": "$80",
+        "requiredDocuments": ["Transcripts", "Letters of Recommendation"],
+        "contact": "admissions@uvwcollege.edu"
+      },
+      "researchCount": 80,
+      "events": [
+        {
+          "id": 1,
+          "name": "International Business Summit",
+          "image": "https://i.ibb.co/tZ8NK9Y/International-Business-Summit.jpg",
+          "date": "2023-11-05"
+        },
+        {
+          "id": 2,
+          "name": "Cultural Diversity Week",
+          "image": "https://i.ibb.co/kGdWJgb/Cultural-Diversity-Week.jpg",
+          "date": "2023-12-01"
+        }
+      ],
+      "sports": [
+        {
+          "id": 1,
+          "name": "Enjoy Football Match",
+          "image": "https://i.ibb.co/P4sx4w6/football.jpg",
+          "subtitle": "Feel the thrill, cheer for your team, and enjoy the excitement of the game."
+        },
+        {
+          "id": 2,
+          "name": "Enjoy Basketball Match",
+          "image": "https://i.ibb.co/Sy9tcxp/bas.jpg",
+          "subtitle": "Experience the fast-paced action and the joy of a thrilling basketball match."
+        },
+        {
+          "id": 2,
+          "name": "Enjoy Cricket Match",
+          "image": "https://i.ibb.co/jkbpMd5/cric.jpg",
+          "subtitle": "Hoop cheers, and the joy of a thrilling Cricket match."
+        }
+      ],
+      "details": "Dhaka City College is committed to fostering a global perspective in education. Our programs focus on preparing students for success in an interconnected world.",
+      "graduateImages": [
+        "lmn_graduate_1.jpg",
+        "lmn_graduate_2.jpg",
+        "lmn_graduate_3.jpg"
+      ],
+      "researchPapers": [
+        {
+          "id": 1,
+          "title": "Global Economic Prospects",
+          "author": "World Bank",
+          "link": "https://www.worldbank.org/en/publication/global-economic-prospects",
+          "image": "https://i.ibb.co/cxTXvxF/Global-Economic-Prospects.jpg",
+          "date": "December 02, 2023"
+        },
+        {
+          "id": 2,
+          "title": "Cybersecurity Challenges",
+          "author": "KnowledgeHut",
+          "link": "https://www.knowledgehut.com/blog/security/cyber-security-challenges",
+          "image": "https://i.ibb.co/qrSzyHd/Cybersecurity-Challenges.jpg",
+          "date": "December 05, 2023"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Eva Brown",
+          "rating": 4,
+          "comment": "LMN Institute provides a well-rounded education."
+        },
+        {
+          "id": 2,
+          "user": "David Miller",
+          "rating": 5,
+          "comment": "Excellent faculty and resources for research."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Comilla Victoria College",
+      "slogan": "Nurturing Wisdom, Igniting Potential, Shaping Tomorrow's Leaders!",
+      "shortName": "cvc",
+      "image": "https://i.ibb.co/6ZZPb1f/pg-commila.jpg",
+      "rating": 4.0,
+      "admissionInfo": {
+        "process": "Submit Online Application, Interview",
+        "deadline": "2023-07-16",
+        "eligibilityCriteria": "Minimum GPA of 3.5, SAT/ACT scores",
+        "applicationFees": "$80",
+        "requiredDocuments": ["Transcripts", "Letters of Recommendation"],
+        "contact": "admissions@uvwcollege.edu"
+      },
+      "researchCount": 40,
+      "events": [
+        {
+          "id": 1,
+          "name": "International Business Summit",
+          "image": "https://i.ibb.co/tZ8NK9Y/International-Business-Summit.jpg",
+          "date": "2023-11-05"
+        },
+        {
+          "id": 2,
+          "name": "Cultural Diversity Week",
+          "image": "https://i.ibb.co/kGdWJgb/Cultural-Diversity-Week.jpg",
+          "date": "2023-12-01"
+        }
+      ],
+      "sports": [
+        {
+          "id": 1,
+          "name": "Enjoy Football Match",
+          "image": "https://i.ibb.co/P4sx4w6/football.jpg",
+          "subtitle": "Feel the thrill, cheer for your team, and enjoy the excitement of the game."
+        },
+        {
+          "id": 2,
+          "name": "Enjoy Basketball Match",
+          "image": "https://i.ibb.co/Sy9tcxp/bas.jpg",
+          "subtitle": "Experience the fast-paced action and the joy of a thrilling basketball match."
+        },
+        {
+          "id": 2,
+          "name": "Enjoy Cricket Match",
+          "image": "https://i.ibb.co/jkbpMd5/cric.jpg",
+          "subtitle": "Hoop cheers, and the joy of a thrilling Cricket match."
+        }
+      ],
+      "details": "Dhaka City College is committed to fostering a global perspective in education. Our programs focus on preparing students for success in an interconnected world.",
+      "graduateImages": [
+        "lmn_graduate_1.jpg",
+        "lmn_graduate_2.jpg",
+        "lmn_graduate_3.jpg"
+      ],
+      "researchPapers": [
+        {
+          "id": 1,
+          "title": "Global Economic Prospects",
+          "author": "World Bank",
+          "link": "https://www.worldbank.org/en/publication/global-economic-prospects",
+          "image": "https://i.ibb.co/cxTXvxF/Global-Economic-Prospects.jpg",
+          "date": "December 02, 2023"
+        },
+        {
+          "id": 2,
+          "title": "Cybersecurity Challenges",
+          "author": "KnowledgeHut",
+          "link": "https://www.knowledgehut.com/blog/security/cyber-security-challenges",
+          "image": "https://i.ibb.co/qrSzyHd/Cybersecurity-Challenges.jpg",
+          "date": "December 05, 2023"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Eva Brown",
+          "rating": 4,
+          "comment": "LMN Institute provides a well-rounded education."
+        },
+        {
+          "id": 2,
+          "user": "David Miller",
+          "rating": 5,
+          "comment": "Excellent faculty and resources for research."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Ideal College",
+      "slogan": "Where Knowledge and Character Unite for Excellence!",
+      "shortName": "idealcollege",
+      "image": "https://i.ibb.co/1bCMBn0/pg-idealcollege.jpg",
+      "rating": 4.2,
+      "admissionInfo": {
+        "process": "Submit Online Application, Interview",
+        "deadline": "2023-05-31",
+        "eligibilityCriteria": "Minimum GPA of 3.0",
+        "applicationFees": "$15",
+        "requiredDocuments": ["Transcripts", "Letters of Recommendation"],
+        "contact": "admissions@uvwcollege.edu"
+      },
+      "researchCount": 80,
+      "events": [
+        {
+          "id": 1,
+          "name": "International Business Summit",
+          "image": "https://i.ibb.co/tZ8NK9Y/International-Business-Summit.jpg",
+          "date": "2023-11-05"
+        },
+        {
+          "id": 2,
+          "name": "Cultural Diversity Week",
+          "image": "https://i.ibb.co/kGdWJgb/Cultural-Diversity-Week.jpg",
+          "date": "2023-12-01"
+        }
+      ],
+      "sports": [
+        {
+          "id": 1,
+          "name": "Enjoy Football Match",
+          "image": "https://i.ibb.co/P4sx4w6/football.jpg",
+          "subtitle": "Feel the thrill, cheer for your team, and enjoy the excitement of the game."
+        },
+        {
+          "id": 2,
+          "name": "Enjoy Basketball Match",
+          "image": "https://i.ibb.co/Sy9tcxp/bas.jpg",
+          "subtitle": "Experience the fast-paced action and the joy of a thrilling basketball match."
+        },
+        {
+          "id": 2,
+          "name": "Enjoy Cricket Match",
+          "image": "https://i.ibb.co/jkbpMd5/cric.jpg",
+          "subtitle": "Hoop cheers, and the joy of a thrilling Cricket match."
+        }
+      ],
+      "details": "Dhaka City College is committed to fostering a global perspective in education. Our programs focus on preparing students for success in an interconnected world.",
+      "graduateImages": [
+        "lmn_graduate_1.jpg",
+        "lmn_graduate_2.jpg",
+        "lmn_graduate_3.jpg"
+      ],
+      "researchPapers": [
+        {
+          "id": 1,
+          "title": "Global Economic Prospects",
+          "author": "World Bank",
+          "link": "https://www.worldbank.org/en/publication/global-economic-prospects",
+          "image": "https://i.ibb.co/cxTXvxF/Global-Economic-Prospects.jpg",
+          "date": "December 02, 2023"
+        },
+        {
+          "id": 2,
+          "title": "Cybersecurity Challenges",
+          "author": "KnowledgeHut",
+          "link": "https://www.knowledgehut.com/blog/security/cyber-security-challenges",
+          "image": "https://i.ibb.co/qrSzyHd/Cybersecurity-Challenges.jpg",
+          "date": "December 05, 2023"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Eva Brown",
+          "rating": 4,
+          "comment": "LMN Institute provides a well-rounded education."
+        },
+        {
+          "id": 2,
+          "user": "David Miller",
+          "rating": 5,
+          "comment": "Excellent faculty and resources for research."
+        }
+      ]
+    }
+  ]
+}
