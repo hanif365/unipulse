@@ -20,7 +20,7 @@ const Footer = () => {
                 alt=""
                 className="inline-block max-h-10"
               />
-              <h2 className="text-xl lg:text-3xl 2xl:text-5xl self-center">
+              <h2 className="text-xl lg:text-3xl 2xl:text-4xl self-center">
                 niPulse
               </h2>
             </div>

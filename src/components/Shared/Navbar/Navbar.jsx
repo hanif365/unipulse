@@ -2,13 +2,16 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import { FaEquals, FaXmark } from "react-icons/fa6";
+import { signIn, signOut, useSession } from "next-auth/react";
 
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
   const router = useRouter();
+  const session = useSession();
+  const pathname = usePathname();
 
   return (
     <div>
@@ -110,6 +113,39 @@ function Navbar() {
                     My College
                   </Link>
                 </li>
+
+
+                {session.status === "authenticated" ? (
+                    <li
+                      className={`text-xl text-black font-bold py-2 px-6 text-center border-b-2 md:border-b-0 transition duration-700 ease-in-out`}
+                    >
+                      <button
+                        className="text-red-500 hover:text-red-600"
+                        onClick={() => signOut()}
+                      >
+                        Logout
+                      </button>
+                    </li>
+                  ) : (
+                    <li
+                      className={`text-xl  font-bold py-2 px-6 text-center border-b-2 md:border-b-0 transition duration-700 ease-in-out ${
+                        pathname === "/login"
+                          ? "text-green-600"
+                          : "text-green-400"
+                      }`}
+                    >
+                      <Link
+                        href="/login"
+                        onClick={() => {
+                          setNavbar((prev) => !prev);
+                        }}
+                      >
+                        Login
+                      </Link>
+                    </li>
+                  )}
+
+
               </ul>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import Header from "@/components/Header/Header";
+import Header from "@/components/HomePageComponents/Header/Header";
 import CollegeCard from "@/components/HomePageComponents/CollegeCard/CollegeCard";
 import PhotoGallery from "@/components/HomePageComponents/PhotoGallery/PhotoGallery";
 import Research from "@/components/CollegeComponents/Research/Research";
