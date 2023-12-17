@@ -51,9 +51,9 @@ const Login = () => {
     );
   }
 
-  if (session?.status === "authenticated") {
-    router?.push("/");
-  }
+  // if (session?.status === "authenticated") {
+  //   router?.push("/");
+  // }
 
   console.log(session.status);
 
